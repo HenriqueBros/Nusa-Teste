@@ -26,6 +26,11 @@ input {
     border-color: royalblue;
 }
 
+div.button {
+    margin-left: 170px;
+    margin-top: 15px;
+}
+
 button {
     border-radius: 10px;
     color: slateblue;
@@ -36,4 +41,11 @@ label {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     color: midnightblue;
+}
+
+div #mae {
+    margin-top: 10px;
+}
+div #data {
+    margin-left: 25px;
 }

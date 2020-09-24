@@ -10,21 +10,39 @@
 <body>
     <div class="container">
         <form>
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome"><br>
-            <div id="sex-data" > 
-                <label for="sexo">Sexo:</label>
-                <input type="text" id="sexo" name="sexo"><br>
-                <label for="data">Data de Nascimento:</label>
-                <input type="text" id="data" name="data"
-                placeholder="DD/MM/AAAA" 
-                ><br>   
+            <div class="name">
+                <!--<label for="nome">Nome:</label>-->
+                <input type="text" id="nome" size="50" name="nome"
+                placeholder="Nome"><br>
             </div>
-            <label for="endereco">Endereço:</label>
-            <input type="text" id="endereco" name="endereco"><br>
-            <label for="mae">Nome da mãe:</label>
-            <input type="text" id="mae" name="mae"><br>
-            <button type="button" onClick="formulario()">Enviar</button>
+
+            <div id="sex-data" > 
+               <!-- <label for="sexo">Sexo:</label>-->
+                <input type="text" id="sexo" name="sexo"
+                placeholder="Sexo"><br>
+
+                <div class="data">
+                    <!--<label for="data">Data de Nascimento:</label>-->
+                    <input type="text" id="data" name="data"
+                    placeholder="DD/MM/AAAA" 
+                    ><br>   
+                </div>
+            </div>
+
+            <!--<label for="endereco">Endereço:</label>-->
+            <input type="text" id="endereco" size="50" name="endereco"
+            placeholder="Endereço"><br>
+
+            <div class="mae">
+                <!--<label for="mae">Nome da mãe:</label>-->
+                <input type="text" id="mae" size="50" name="mae"
+                placeholder="Mãe"><br>
+            </div>
+
+            <div class="button">
+                <button type="button" onClick="formulario()">Enviar</button>
+            </div>
+
         </form>
     </div>
 </body>
